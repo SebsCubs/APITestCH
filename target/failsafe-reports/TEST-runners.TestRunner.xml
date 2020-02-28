@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.TestRunner" time="20.872" tests="4" errors="1" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\acespedes\IdeaProjects\APITestChallenge"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\acespedes\IdeaProjects\APITestChallenge"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ACESPE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\acespedes\AppData\Local\Programs\Python\Python37;C:\Users\acespedes\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\acespedes\AppData\Roaming\Python\Python37\Scripts;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\acespedes\AppData\Local\Programs\Python\Python37;C:\Users\acespedes\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\acespedes\AppData\Local\Microsoft\WindowsApps;C:\Users\acespedes\AppData\Roaming\Python\Python37\Scripts;C:\Users\acespedes\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\acespedes"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="acespedes"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Create a new list" classname="Interact with account&apos;s lists" time="5.059"/>
+  <testcase name="Delete a list" classname="Interact with account&apos;s lists" time="2.877"/>
+  <testcase name="Add a movie to a list" classname="Interact with account&apos;s lists" time="2.271">
+    <failure message="Error: the movie didn&apos;t get added: something went wrong with the API&#10;Expected: &lt;12&gt;&#10;     but: was &lt;8&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Error: the movie didn't get added: something went wrong with the API
+Expected: <12>
+     but: was <8>
+]]></failure>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Add a movie to a list
+-------------------------------------------------------------------(interact-with-account-s-lists;add-a-movie-to-a-list)
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Add a movie to a list
+--------------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then The list has the movie added and doesn't appear in details
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Error: the movie didn't get added: something went wrong with the APIExpected: <12> but: was <8>
+]]></system-err>
+  </testcase>
+  <testcase name="Remove a movie from a list" classname="Interact with account&apos;s lists" time="2.444">
+    <error message="Invalid JSON expression:&#10;Script1.groovy: 1: expecting EOF, found &apos;:&apos; @ line 1, column 38.&#10;                            status_code: 13&#10;                                        ^&#10;&#10;1 error&#10;" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: 
+Invalid JSON expression:
+Script1.groovy: 1: expecting EOF, found ':' @ line 1, column 38.
+                            status_code: 13
+                                        ^
+
+1 error
+
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: 
+startup failed:
+Script1.groovy: 1: expecting EOF, found ':' @ line 1, column 38.
+   restAssuredJsonRootObject.status_code: 13
+                                        ^
+
+1 error
+
+</error>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Remove a movie from a list
+-------------------------------------------------------------------(interact-with-account-s-lists;remove-a-movie-from-a-list)
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Remove a movie from a list
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then The list doesn't have the movie in details
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+]]></system-err>
+  </testcase>
+</testsuite>

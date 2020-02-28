@@ -1,0 +1,15 @@
+helpers\builders\UrlBuilder.class
+controllerFactory\AuthControl.class
+helpers\builders\AuthorizationBuilder.class
+controllerFactory\ControllerFather.class
+testSteps\ListSteps.class
+helpers\entities\Lists.class
+runners\TestRunner.class
+controllerFactory\ListsControl.class
+utils\JsonManager.class
+controllerFactory\TVEpRankControl.class
+controllerFactory\TVShowRankControl.class
+controllerFactory\MovieRankControl.class
+helpers\entities\Authorization.class
+utils\PropertiesManager.class
+helpers\builders\ListsBuilder.class

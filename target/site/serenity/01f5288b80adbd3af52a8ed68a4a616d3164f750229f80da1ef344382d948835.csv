@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Interact with account's lists","Create a new list","SUCCESS","2020-02-27T17:49:34.446-05:00[America/Bogota]","0.0","5.18"
+"Interact with account's lists","Delete a list","SUCCESS","2020-02-27T17:49:39.623-05:00[America/Bogota]","0.0","2.91"

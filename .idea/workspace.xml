@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f80c064-41f1-4356-8579-51a0a5550de8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YIwHzn3YORNFJPM6iI76R6fmnd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-workshop" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\acespedes\IdeaProjects\APITestChallenge\src\test\resources\features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: lists" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/lists.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors testSteps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="APITestChallenge" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: lists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: movieRate" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/movieRate.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors testSteps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="APITestChallenge" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: movieRate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APITestChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber java.Feature: movieRate" />
+        <item itemvalue="Cucumber java.Feature: lists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f80c064-41f1-4356-8579-51a0a5550de8" name="Default Changelist" comment="" />
+      <created>1582643332460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582643332460</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1155" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1582848156348">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1155" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582848156348" />
+    <state x="566" y="292" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582644370097">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="566" y="292" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1582644370097" />
+    <state x="-1230" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582831629711">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1230" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582831629711" />
+    <state x="-1489" y="291" width="1156" height="558" key="#xdebugger.evaluate" timestamp="1582846376645">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1489" y="291" width="1156" height="558" key="#xdebugger.evaluate/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582846376645" />
+    <state width="480" height="466" key="DebuggerActiveHint" timestamp="1582830949719">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="480" height="466" key="DebuggerActiveHint/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582830949719" />
+    <state x="-1180" y="295" key="FileChooserDialogImpl" timestamp="1582647740498">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1180" y="295" key="FileChooserDialogImpl/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582647740498" />
+    <state width="1875" height="249" key="GridCell.Tab.0.bottom" timestamp="1582855861818">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="249" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582855861818" />
+    <state width="1491" height="377" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582760161370" />
+    <state width="1875" height="249" key="GridCell.Tab.0.center" timestamp="1582855861818">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="249" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582855861818" />
+    <state width="1491" height="377" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582760161370" />
+    <state width="1875" height="249" key="GridCell.Tab.0.left" timestamp="1582855861818">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="249" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582855861818" />
+    <state width="1491" height="377" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582760161370" />
+    <state width="1875" height="249" key="GridCell.Tab.0.right" timestamp="1582855861818">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="249" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582855861818" />
+    <state width="1491" height="377" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582760161370" />
+    <state width="1875" height="388" key="GridCell.Tab.1.bottom" timestamp="1582846412231">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="388" key="GridCell.Tab.1.bottom/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582846412231" />
+    <state width="1491" height="174" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582760105880" />
+    <state width="1875" height="388" key="GridCell.Tab.1.center" timestamp="1582846412231">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="388" key="GridCell.Tab.1.center/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582846412231" />
+    <state width="1491" height="174" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1582760105880" />
+    <state width="1875" height="388" key="GridCell.Tab.1.left" timestamp="1582846412231">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="388" key="GridCell.Tab.1.left/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582846412231" />
+    <state width="1491" height="174" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1582760105880" />
+    <state width="1875" height="388" key="GridCell.Tab.1.right" timestamp="1582846412231">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="388" key="GridCell.Tab.1.right/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582846412231" />
+    <state width="1491" height="174" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1582760105880" />
+    <state x="-1430" y="195" key="Maven.ArtifactSearchDialog" timestamp="1582657998972">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1430" y="195" key="Maven.ArtifactSearchDialog/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582657998972" />
+    <state x="-1459" y="182" key="SettingsEditor" timestamp="1582735708162">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1459" y="182" key="SettingsEditor/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582735708162" />
+    <state width="968" height="548" key="XDebugger.FullValuePopup" timestamp="1582835436509">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="968" height="548" key="XDebugger.FullValuePopup/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582835436509" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1582743410913">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1582743410913" />
+    <state x="-1208" y="461" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1582847132586">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1208" y="461" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582847132586" />
+    <state x="-1320" y="266" width="700" height="530" key="recent.locations.popup" timestamp="1582733993669">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1320" y="266" width="700" height="530" key="recent.locations.popup/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582733993669" />
+    <state x="-1297" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1582658825490">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1297" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1582658825490" />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 20.872 sec <<< FAILURE! - in runners.TestRunner
+Add a movie to a list(Interact with account's lists)  Time elapsed: 2.271 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Error: the movie didn't get added: something went wrong with the API
+Expected: <12>
+     but: was <8>
+
+Remove a movie from a list(Interact with account's lists)  Time elapsed: 2.444 sec  <<< ERROR!
+java.lang.IllegalArgumentException: 
+Invalid JSON expression:
+Script1.groovy: 1: expecting EOF, found ':' @ line 1, column 38.
+                            status_code: 13
+                                        ^
+
+1 error
+
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: 
+startup failed:
+Script1.groovy: 1: expecting EOF, found ':' @ line 1, column 38.
+   restAssuredJsonRootObject.status_code: 13
+                                        ^
+
+1 error
+
+
