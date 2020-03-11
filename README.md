@@ -18,6 +18,6 @@ A test automation framework for testing the TheMovieDB API in 3 features: Authen
 - jackson-databind
 - slf4j-simple
 
-### [Test cases Flow Chart](API flowchart.png)
+### [Test cases Flow Chart](APIflowchart.png)
 ### [Test cases in GWT format](/src/test/resources/features)
 ### [Serenity report](/target/site/serenity/index.html)
