@@ -10,3 +10,9 @@ Feature: Authentication
     Given a session ID exists
     When a request to delete the ID is made
     Then the session ID os not usable anymore
+
+  Scenario: Delete a non-existent session ID
+    Given a session ID exists
+    When a request to delete the ID is made
+    And a request to delete the ID is made
+    Then an answer with an error for resource not found is received
