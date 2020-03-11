@@ -1,6 +1,5 @@
 package controllers;
 
-import cucumber.api.java.eo.Se;
 import entities.Lists;
 import entities.ListsBuilder;
 import helpers.UrlBuilder;
@@ -22,7 +21,7 @@ public class ListsController extends ControllerFather {
     private Lists list;
 
 
-    public Response createList(String name,String description,String language){
+    public Response createList(String name, String description, String language) {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("createList"))
                 .build();
@@ -36,13 +35,14 @@ public class ListsController extends ControllerFather {
                 .queryParam("session_id", (Object) Serenity.sessionVariableCalled("session_id"))
                 .and().post(url);
 
-        Serenity.setSessionVariable("list_id").to(jsonHelper.getJsonField(response,"list_id"));
+        Serenity.setSessionVariable("list_id").to(jsonHelper.getJsonField(response, "list_id"));
 
 
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         return response;
     }
-    public Response deleteList(String list_id){
+
+    public Response deleteList(String list_id) {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("createList"))
                 .addPathStep(list_id)
@@ -53,7 +53,8 @@ public class ListsController extends ControllerFather {
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         return response;
     }
-    public Response getDetails(String list_id){
+
+    public Response getDetails(String list_id) {
         url = new UrlBuilder()
                 .addPathStep("list")
                 .addPathStep(list_id)
@@ -63,7 +64,8 @@ public class ListsController extends ControllerFather {
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         return response;
     }
-    public Response addMovie(String list_id, String media_id){
+
+    public Response addMovie(String list_id, String media_id) {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("createList"))
                 .addPathStep(list_id)
@@ -82,7 +84,8 @@ public class ListsController extends ControllerFather {
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         return response;
     }
-    public Response checkItemStatus(String list_id,String movie_id){
+
+    public Response checkItemStatus(String list_id, String movie_id) {
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("createList"))
@@ -95,7 +98,8 @@ public class ListsController extends ControllerFather {
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         return response;
     }
-    public Response removeMovie(String list_id, String media_id){
+
+    public Response removeMovie(String list_id, String media_id) {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("createList"))
                 .addPathStep(list_id)
@@ -113,7 +117,8 @@ public class ListsController extends ControllerFather {
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         return response;
     }
-    public Response clearList(String list_id){
+
+    public Response clearList(String list_id) {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("createList"))
                 .addPathStep(list_id)
@@ -121,7 +126,7 @@ public class ListsController extends ControllerFather {
                 .build();
         response = requestSpecification
                 .queryParam("session_id", (Object) Serenity.sessionVariableCalled("session_id"))
-                .queryParam("confirm","true")
+                .queryParam("confirm", "true")
                 .post(url);
 
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);

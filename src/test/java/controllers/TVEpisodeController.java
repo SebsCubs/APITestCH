@@ -15,17 +15,15 @@ import java.net.URL;
 public class TVEpisodeController extends ControllerFather {
     private PropertiesHelper propertiesHelper = new PropertiesHelper();
     private JacksonHelper jsonHelper = new JacksonHelper();
-    private String jsonBody;
     private Response response;
     private URL url;
-    private Rater rater;
 
-    public Response rateTVEpisode(String tv_id,double rate,Integer season,Integer episode){
-        url = getUrl(tv_id,season,episode);
-        rater = new RaterBuilder()
+    public Response rateTVEpisode(String tv_id, double rate, Integer season, Integer episode) {
+        url = getUrl(tv_id, season, episode);
+        Rater rater = new RaterBuilder()
                 .withValue(rate)
                 .build();
-        jsonBody = jsonHelper.objectToJson(rater);
+        String jsonBody = jsonHelper.objectToJson(rater);
 
         response = requestSpecification
                 .queryParam("session_id", (Object) Serenity.sessionVariableCalled("session_id"))
@@ -35,8 +33,8 @@ public class TVEpisodeController extends ControllerFather {
         return response;
     }
 
-    public Response deleteTVEpRate(String tv_id,Integer season,Integer episode){
-        url = getUrl(tv_id,season,episode);
+    public Response deleteTVEpRate(String tv_id, Integer season, Integer episode) {
+        url = getUrl(tv_id, season, episode);
         response = requestSpecification
                 .queryParam("session_id", (Object) Serenity.sessionVariableCalled("session_id"))
                 .given().delete(url);
@@ -44,7 +42,8 @@ public class TVEpisodeController extends ControllerFather {
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         return response;
     }
-    private URL getUrl(String tv_id,Integer season, Integer episode) {
+
+    private URL getUrl(String tv_id, Integer season, Integer episode) {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("rateTVShow.mainUrl"))
                 .addPathStep(tv_id)

@@ -7,7 +7,8 @@ public class PropertiesHelper {
     private String PROPERTIES_FILENAME = "/params.properties";
     private Properties properties;
 
-    public PropertiesHelper() { }
+    public PropertiesHelper() {
+    }
 
     public String getValueByKey(String key) {
         if (properties == null) {
@@ -17,13 +18,11 @@ public class PropertiesHelper {
     }
 
 
-
-    private Properties loadProperties() {
+    private void loadProperties() {
         try {
             properties = new Properties();
             properties.load(PropertiesHelper.class.getResourceAsStream(PROPERTIES_FILENAME));
         } catch (IOException e) {
         }
-        return properties;
     }
 }

@@ -1,7 +1,6 @@
 package steps;
 
 import controllers.CollectionController;
-import controllers.TVEpisodeController;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.response.Response;
@@ -24,9 +23,9 @@ public class CollectionsSteps {
     @Then("^the collection's info is obtained$")
     public void theCollectionSInfoIsObtained() {
         Assertions.assertThat(response.statusCode()).isEqualTo(200);
-        Assertions.assertThat(jsonHelper.getJsonField(response,"id"))
+        Assertions.assertThat(jsonHelper.getJsonField(response, "id"))
                 .isEqualTo(propertiesHelper.getValueByKey("jhonWickCollection"));
-        Assertions.assertThat(jsonHelper.getJsonField(response,"name")).isNotBlank();
+        Assertions.assertThat(jsonHelper.getJsonField(response, "name")).isNotBlank();
     }
 
     @When("^an images request for John Wick's collection is made$")
@@ -37,7 +36,7 @@ public class CollectionsSteps {
     @Then("^the collection's images info is obtained$")
     public void theCollectionSImagesInfoIsObtained() {
         Assertions.assertThat(response.statusCode()).isEqualTo(200);
-        Assertions.assertThat(jsonHelper.getJsonField(response,"id"))
+        Assertions.assertThat(jsonHelper.getJsonField(response, "id"))
                 .isEqualTo(propertiesHelper.getValueByKey("jhonWickCollection"));
     }
 
@@ -49,8 +48,8 @@ public class CollectionsSteps {
     @Then("^the collection's translations are obtained$")
     public void theCollectionSTranslationsAreObtained() {
         Assertions.assertThat(response.statusCode()).isEqualTo(200);
-        Assertions.assertThat(jsonHelper.getJsonField(response,"id"))
+        Assertions.assertThat(jsonHelper.getJsonField(response, "id"))
                 .isEqualTo(propertiesHelper.getValueByKey("jhonWickCollection"));
-        Assertions.assertThat(jsonHelper.getJsonField(response,"translations")).isNotBlank();
+        Assertions.assertThat(jsonHelper.getJsonField(response, "translations")).isNotBlank();
     }
 }

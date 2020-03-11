@@ -13,20 +13,18 @@ import utils.PropertiesHelper;
 import java.net.URL;
 
 
-public class MovieRateController extends  ControllerFather{
+public class MovieRateController extends ControllerFather {
     private PropertiesHelper propertiesHelper = new PropertiesHelper();
     private JacksonHelper jsonHelper = new JacksonHelper();
-    private String jsonBody;
     private Response response;
     private URL url;
-    private Rater rater;
 
     public Response rateMovie(String movie_id, double value) {
         url = getUrl(movie_id);
-        rater = new RaterBuilder()
+        Rater rater = new RaterBuilder()
                 .withValue(value)
                 .build();
-        jsonBody = jsonHelper.objectToJson(rater);
+        String jsonBody = jsonHelper.objectToJson(rater);
         response = requestSpecification
                 .queryParam("session_id", (Object) Serenity.sessionVariableCalled("session_id"))
                 .given().body(jsonBody).and().post(url);
@@ -34,7 +32,8 @@ public class MovieRateController extends  ControllerFather{
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         return response;
     }
-    public Response deleteRate(String movie_id){
+
+    public Response deleteRate(String movie_id) {
         url = getUrl(movie_id);
         response = requestSpecification
                 .queryParam("session_id", (Object) Serenity.sessionVariableCalled("session_id"))
@@ -43,7 +42,8 @@ public class MovieRateController extends  ControllerFather{
         requestSpecification = RestAssured.given().contentType(ContentType.JSON);
         return response;
     }
-    private URL getUrl(String movie_id){
+
+    private URL getUrl(String movie_id) {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("rateMovie.mainUrl"))
                 .addPathStep(movie_id)

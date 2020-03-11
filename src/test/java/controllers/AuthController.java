@@ -12,31 +12,34 @@ import utils.PropertiesHelper;
 
 import java.net.URL;
 
-public class AuthController extends ControllerFather{
+public class AuthController extends ControllerFather {
     private PropertiesHelper propertiesHelper = new PropertiesHelper();
     private JacksonHelper jsonHelper = new JacksonHelper();
     private Response response;
     private Authorization authorization;
     private URL url;
-    private String jsonBody,request_token;
+    private String jsonBody, request_token;
 
 
-    public AuthController(){}
+    public AuthController() {
+    }
 
-    public Response authentication(){
+    public Response authentication() {
         createRequestToken();
         createSessionWithLogin();
         return createSession();
     }
-    public Response createRequestToken(){
+
+    public Response createRequestToken() {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("createRequestToken"))
                 .build();
         response = requestSpecification.get(url);
-        request_token = jsonHelper.getJsonField(response,"request_token");
+        request_token = jsonHelper.getJsonField(response, "request_token");
         return response;
     }
-    public Response createSessionWithLogin(){
+
+    public Response createSessionWithLogin() {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("createSessionWithLogin"))
                 .build();
@@ -47,10 +50,11 @@ public class AuthController extends ControllerFather{
                 .build();
         jsonBody = jsonHelper.objectToJson(authorization);
         response = requestSpecification.given().body(jsonBody).and().post(url);
-        request_token = jsonHelper.getJsonField(response,"request_token");
+        request_token = jsonHelper.getJsonField(response, "request_token");
         return response;
     }
-    public Response createSession(){
+
+    public Response createSession() {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("createSession"))
                 .build();
@@ -60,10 +64,11 @@ public class AuthController extends ControllerFather{
         jsonBody = jsonHelper.objectToJson(authorization);
         response = requestSpecification.given().body(jsonBody).and().post(url);
         Serenity.setSessionVariable("session_id")
-                .to(jsonHelper.getJsonField(response,"session_id"));
+                .to(jsonHelper.getJsonField(response, "session_id"));
         return response;
     }
-    public Response deleteSession(String session_id){
+
+    public Response deleteSession(String session_id) {
         url = new UrlBuilder()
                 .addPathStep(propertiesHelper.getValueByKey("deleteSession"))
                 .build();
