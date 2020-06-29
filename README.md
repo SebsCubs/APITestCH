@@ -1,4 +1,4 @@
-# API Test Automation framework challenge
+# API Test Automation framework using REST Assured for JAVA
 ## Andres Sebastian Cespedes Cubides
 
 A test automation framework for testing the TheMovieDB API in 3 features: Authentication, Lists and Movie rating
